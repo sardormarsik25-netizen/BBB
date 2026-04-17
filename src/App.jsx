@@ -35,13 +35,13 @@ useEffect(() => {
       setRank("Gold")
     } else if (coin == 900) {
       setRank("Platinum")
-    } else if (coin == 1  0) {
+    } else if (coin == 1000) {
       setRank("Diamond")
-    } else if (coin == 110) {
+    } else if (coin == 1100) {
       setRank("Epic")
-    } else if (coin == 120) {
+    } else if (coin == 1200) {
       setRank("Legendary")
-    } else if (coin == 100) {
+    } else if (coin == 1300) {
       setRank("Creator")
     }
 }, [coin])
